@@ -536,7 +536,7 @@ input:focus + .modal-svg {
   justify-content: center;
   fill: transparent;
 }
-.visually-hidden:checked .check-svg {
+.visually-hidden:checked ~ .terms {
   background-color: var(--checkbox-background);
   border: none;
   fill: var(--button-background-color);
@@ -972,7 +972,7 @@ footer .studio {
   display: flex;
   gap: 24px;
 }
-.footer-form .input {
+.footer-form .sub-input {
   background-color: transparent;
   color: #ffffff;
   width: 264px;
@@ -1006,6 +1006,6 @@ footer .studio {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.icon-svg {
+.submit-link {
   margin-left: 16px;
 }
