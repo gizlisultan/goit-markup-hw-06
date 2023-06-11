@@ -843,7 +843,7 @@ button:focus {
 }
 .pic-item {
   position: relative;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .container .pic-list {
