@@ -457,7 +457,6 @@ header .studio {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border-color: var(--icons-color);
 }
 .form-field input:focus {
   border-color: #4d5ae5;
