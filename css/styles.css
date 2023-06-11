@@ -1002,10 +1002,10 @@ footer .studio {
   border-radius: 4px;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.send-svg {
+.send {
   margin-left: 16px;
 }
