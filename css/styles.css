@@ -506,7 +506,7 @@ input:focus + .modal-svg {
   align-items: center;*/
   margin-bottom: 24px;
 }
-/*.visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -516,7 +516,7 @@ input:focus + .modal-svg {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-*/
+
 .terms {
   font-size: 12px;
   line-height: 1.17;
@@ -536,10 +536,12 @@ input:focus + .modal-svg {
   justify-content: center;
   fill: transparent;
 }
-.visually-hidden:checked ~ .terms {
+.visually-hidden:checked + .terms .privacy {
   background-color: var(--checkbox-background);
   border: none;
   fill: var(--button-background-color);
+  background-size: contain;
+  background-origin: border-box;
 }
 .policy-link {
   color: var(--accent);
@@ -956,7 +958,7 @@ footer .studio {
 .footer-form {
   width: 453px;
   height: 80px;
-  outline: 1px solid white;
+
   margin-left: 80px;
 }
 .form-text {
