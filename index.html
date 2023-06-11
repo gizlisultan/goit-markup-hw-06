@@ -467,21 +467,34 @@
               </svg>
             </div>
           </div>
-          <div class="form-field">
-            <label for="comment" class="label">Comments</label>
+          <div class="form-field comment">
+            <label for="-user-comment" class="label">Comments</label>
             <textarea
-              name="comment"
-              id="comment"
+              class="textarea"
+              name="user-comment"
+              id="user-comment"
               cols="30"
               rows="10"
               placeholder="Text input"
             ></textarea>
           </div>
           <div class="conditions">
-            <input type="checkbox" name="terms" id="terms" />
-            <label for="terms" class="terms">
-              I accept the terms and conditions of the Privacy Policy</label
-            >
+            <input
+              class="visually-hidden"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              id="user-privacy"
+            />
+            <label for="user-privacy" class="terms">
+              <span class="privacy">
+                <svg class="check-svg" width="10" height="8">
+                  <use href="./images/icons.svg#icon-checkbox-1"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="policy-link">Privacy Policy</a>
+            </label>
           </div>
           <button type="submit" class="modal-submit">Send</button>
         </form>
